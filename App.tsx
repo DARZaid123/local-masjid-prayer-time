@@ -525,11 +525,19 @@ export default function App() {
           {/* MIDDLE SECTION: DAILY PRAYERS */}
           <div className="bg-white rounded-none border border-gray-200 overflow-hidden shadow-sm">
              {/* TABLE HEADER - NEW */}
+<<<<<<< HEAD
+             <div className="flex items-center justify-between px-5 py-3 bg-gray-50 border-b border-gray-200">
+                 <div className="flex-1 text-[10px] font-black uppercase tracking-widest text-gray-400">Prayer</div>
+                 <div className="flex flex-shrink-0 ml-2 text-right">
+                     <div className="w-24 text-center text-[10px] font-black uppercase tracking-widest text-gray-400">Azan</div>
+                     <div className="w-28 text-center text-[10px] font-black uppercase tracking-widest text-emerald-600 pl-1">Jamaat</div>
+=======
              <div className="flex items-center justify-between px-3 sm:px-5 py-3 bg-gray-50 border-b border-gray-200">
                  <div className="flex-1 text-[10px] font-black uppercase tracking-widest text-gray-400">Prayer</div>
                  <div className="flex flex-shrink-0 ml-1 sm:ml-2 text-right">
                      <div className="w-16 sm:w-24 text-center text-[10px] font-black uppercase tracking-widest text-gray-400">Azan</div>
                      <div className="w-20 sm:w-28 text-center text-[10px] font-black uppercase tracking-widest text-emerald-600 pl-1">Jamaat</div>
+>>>>>>> a238d0a (Initial commit)
                  </div>
              </div>
 
