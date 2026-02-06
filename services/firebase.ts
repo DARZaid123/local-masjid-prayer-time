@@ -18,3 +18,5 @@ export const auth = getAuth(app);
 export const db = getFirestore(app);
 
 console.log("🔥 Firebase initialized");
+console.log("Auth:", auth);
+console.log("DB:", db);
