@@ -39,5 +39,24 @@
   <body class="bg-gray-100 text-gray-900 antialiased selection:bg-emerald-200">
     <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.9.0/firebase-app.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyCmUD14Lr700gzfwQWUI-D_RBflS6VUNDg",
+    authDomain: "masjid-prayer-time-c817d.firebaseapp.com",
+    projectId: "masjid-prayer-time-c817d",
+    storageBucket: "masjid-prayer-time-c817d.firebasestorage.app",
+    messagingSenderId: "279141966857",
+    appId: "1:279141966857:web:fc09da41f3cc31bf63c4d8"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+    </script>
 </body>
 </html>
