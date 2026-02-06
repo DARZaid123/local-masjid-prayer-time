@@ -1,0 +1,16 @@
+{
+  "name": "Local Masjid Prayer Time",
+  "short_name": "MasjidTimes",
+  "description": "Quickly check prayer times for your local masjid.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#065f46",
+  "theme_color": "#065f46",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/4358/4358667.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

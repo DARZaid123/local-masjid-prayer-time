@@ -1,0 +1,5 @@
+{
+  "name": "Local Masjid Prayer Time",
+  "description": "A simple, mobile-friendly dashboard for local communities to view manually updated prayer times.",
+  "requestFramePermissions": []
+}
